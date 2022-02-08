@@ -6,6 +6,9 @@ import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.jvm.Throws
 
+/**
+ * https://thecommelier.tistory.com/16?category=718833
+ */
 object Util {
 
     @Throws(NullPointerException::class)
@@ -32,5 +35,5 @@ object Util {
         val d = parseToDate(originalFormat, date)
         return formatToString(convertFormat, d)
     }
-    
+
 }
